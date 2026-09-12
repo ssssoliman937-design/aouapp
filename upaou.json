@@ -1,0 +1,10 @@
+{
+  "version": "1.5.0",
+  "build": 2008,
+  "mandatory": false,
+  "minimum_build": 2007,
+  "title_ar": "تحديث رفيق AOU 1.5.0",
+  "message_ar": "تحسينات في التصميم والأداء والمزامنة والإشعارات، مع وضع اليوم والذكاء الأكاديمي وتجربة استخدام محسّنة.",
+  "title_en": "AOU Hub 1.5.0 Update",
+  "message_en": "Design, performance, sync and notification improvements, with Today Mode, academic intelligence, and a refined user experience."
+}
