@@ -1,12 +1,12 @@
 {
-  "version": "1.5.0",
-  "build": 2008,
+  "version": "1.5.1",
+  "build": 2009,
   "mandatory": false,
   "minimum_build": 2007,
 
-  "title_ar": "تحديث رفيق AOU 1.5.0",
-  "message_ar": "لمسة ثلاثية الأبعاد جديدة في بطاقة الطالب وشاشة النهارده، وتحسينات في الأداء والمزامنة والإشعارات.",
+  "title_ar": "تحديث رفيق AOU 1.5.1",
+  "message_ar": "تسجيل دخول جديد وأوضح: شاشة ترحيب، حساب Google أو ضيف أو حساب الجامعة، وحساباتك المحفوظة في مكان واحد.",
 
-  "title_en": "AOU Hub 1.5.0",
-  "message_en": "A new 3D feel on the Student Card and Today, plus performance, sync and notification improvements."
+  "title_en": "AOU Hub 1.5.1",
+  "message_en": "A clearer new sign-in: a welcome screen, Google / guest / university account, and your saved logins in one place."
 }
