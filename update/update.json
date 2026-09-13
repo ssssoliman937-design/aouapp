@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "manifest": {
+    "sequence": 1,
+    "generated_at": "2026-09-13T06:06:03Z",
+    "expires_at": "2026-12-12T06:06:03Z"
+  },
+  "application": {
+    "id": "dev.soliman.aou_hub",
+    "name": "AOU Hub",
+    "platform": "android",
+    "signing_certificate_sha256": "f3bf437811e3c01a227085484af0cb2e723fcd8be54496dfe246d3a1c876b848",
+    "direct_upgrade_from_build": 2001,
+    "support_url": "https://github.com/ssssoliman937-design/aouapp#readme"
+  },
+  "security": {
+    "manifest_signature_file": "update.json.sig",
+    "manifest_key_id": "aouhub-manifest-ed25519-2026"
+  },
+  "channels": {
+    "stable": {
+      "minimum_supported": {
+        "version": "1.0.0",
+        "build": 2007,
+        "message": {
+          "ar": "النسخة دي بقت قديمة ومبقتش مدعومة. حدّث التطبيق عشان تكمل.",
+          "en": "This version is no longer supported. Update to continue."
+        }
+      },
+      "latest": {
+        "version": "1.5.0",
+        "build": 2008,
+        "type": "regular",
+        "mandatory": false,
+        "mandatory_after": null,
+        "withdrawn": false,
+        "released_at": "2026-09-13T06:06:03Z",
+        "title": {
+          "ar": "تحديث رفيق AOU 1.5.0",
+          "en": "AOU Hub 1.5.0"
+        },
+        "summary": {
+          "ar": "لمسة ثلاثية الأبعاد جديدة في بطاقة الطالب وشاشة النهارده، وتحسينات في الأداء والمزامنة والإشعارات.",
+          "en": "A new 3D feel on the Student Card and Today, plus performance, sync and notification improvements."
+        },
+        "highlights": [],
+        "release_notes_url": "https://github.com/ssssoliman937-design/aouapp/releases/tag/v1.5.0",
+        "requirements": {
+          "min_android_sdk": 24
+        },
+        "packages": [
+          {
+            "abi": "universal",
+            "file_name": "AOU-Hub-1.5.0-2008-universal.apk",
+            "url": "https://github.com/ssssoliman937-design/aouapp/releases/download/v1.5.0/AOU-Hub-1.5.0-2008-universal.apk",
+            "size_bytes": 61171611,
+            "sha256": "03d7d820079189a8ac0d60b09b69887e1a616dc926d52d9851ae9c140d1d06d0"
+          }
+        ]
+      }
+    }
+  }
+}

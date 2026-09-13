@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/ssssoliman937-design/aouapp/main/update/update.schema.json",
+  "title": "AOU Hub update manifest",
+  "description": "Documentation and editor validation for update.json. The app enforces the same rules in lib/update/release_manifest.dart, which is authoritative; tool/release/generate_manifest.dart refuses to write a manifest that parser rejects.",
+  "type": "object",
+  "required": ["schema_version", "manifest", "application", "channels"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "manifest": {
+      "type": "object",
+      "required": ["sequence", "generated_at", "expires_at"],
+      "properties": {
+        "sequence": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Increases by one on every publish. Installs reject a manifest with a lower sequence than one they already verified."
+        },
+        "generated_at": { "$ref": "#/$defs/timestamp" },
+        "expires_at": {
+          "$ref": "#/$defs/timestamp",
+          "description": "After this moment the manifest may still offer updates but can no longer block anyone."
+        }
+      }
+    },
+    "application": {
+      "type": "object",
+      "required": ["id", "name", "platform", "signing_certificate_sha256", "direct_upgrade_from_build"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z][a-z0-9_]*(\\.[a-z][a-z0-9_]*)+$" },
+        "name": { "type": "string", "minLength": 1, "maxLength": 80 },
+        "platform": { "const": "android" },
+        "signing_certificate_sha256": { "$ref": "#/$defs/sha256" },
+        "direct_upgrade_from_build": { "type": "integer", "minimum": 1 },
+        "support_url": { "type": "string", "pattern": "^https://github\\.com/" }
+      }
+    },
+    "security": {
+      "type": "object",
+      "description": "Informational only. Whether a signature is required is compiled into the app, never read from here.",
+      "properties": {
+        "manifest_signature_file": { "type": "string" },
+        "manifest_key_id": { "type": "string", "maxLength": 80 }
+      }
+    },
+    "channels": {
+      "type": "object",
+      "required": ["stable"],
+      "properties": {
+        "stable": { "$ref": "#/$defs/channel" },
+        "beta": { "$ref": "#/$defs/channel" },
+        "preview": { "$ref": "#/$defs/channel" }
+      }
+    }
+  },
+  "$defs": {
+    "timestamp": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$",
+      "description": "ISO-8601 with an explicit timezone."
+    },
+    "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "build": { "type": "integer", "minimum": 1, "maximum": 2100000000 },
+    "semver": {
+      "type": "string",
+      "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)(-[0-9A-Za-z-]+(\\.[0-9A-Za-z-]+)*)?$"
+    },
+    "text": {
+      "type": "object",
+      "required": ["ar", "en"],
+      "properties": {
+        "ar": { "type": "string", "minLength": 1 },
+        "en": { "type": "string", "minLength": 1 }
+      }
+    },
+    "channel": {
+      "type": "object",
+      "required": ["minimum_supported", "latest"],
+      "properties": {
+        "minimum_supported": {
+          "type": "object",
+          "required": ["version", "build", "message"],
+          "properties": {
+            "version": { "$ref": "#/$defs/semver" },
+            "build": { "$ref": "#/$defs/build" },
+            "message": { "$ref": "#/$defs/text" }
+          }
+        },
+        "latest": { "$ref": "#/$defs/release" }
+      }
+    },
+    "release": {
+      "type": "object",
+      "required": [
+        "version", "build", "type", "mandatory", "withdrawn", "released_at",
+        "title", "summary", "highlights", "requirements", "packages"
+      ],
+      "properties": {
+        "version": { "$ref": "#/$defs/semver" },
+        "build": { "$ref": "#/$defs/build" },
+        "type": { "enum": ["regular", "hotfix", "emergency"] },
+        "mandatory": { "type": "boolean" },
+        "mandatory_after": { "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/timestamp" }] },
+        "withdrawn": { "type": "boolean" },
+        "released_at": { "$ref": "#/$defs/timestamp" },
+        "title": { "$ref": "#/$defs/text" },
+        "summary": { "$ref": "#/$defs/text" },
+        "highlights": { "type": "array", "maxItems": 8, "items": { "$ref": "#/$defs/text" } },
+        "release_notes_url": { "type": "string", "pattern": "^https://github\\.com/" },
+        "requirements": {
+          "type": "object",
+          "required": ["min_android_sdk"],
+          "properties": { "min_android_sdk": { "type": "integer", "minimum": 21, "maximum": 100 } }
+        },
+        "packages": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["abi", "file_name", "url", "size_bytes", "sha256"],
+            "properties": {
+              "abi": { "enum": ["arm64-v8a", "armeabi-v7a", "x86_64", "universal"] },
+              "file_name": { "type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,120}\\.apk$" },
+              "url": {
+                "type": "string",
+                "pattern": "^https://(github\\.com|objects\\.githubusercontent\\.com|release-assets\\.githubusercontent\\.com)/"
+              },
+              "size_bytes": { "type": "integer", "minimum": 1, "maximum": 209715200 },
+              "sha256": { "$ref": "#/$defs/sha256" }
+            }
+          }
+        }
+      }
+    }
+  }
+}
