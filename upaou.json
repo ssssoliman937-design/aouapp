@@ -1,12 +1,12 @@
 {
-  "version": "1.6.0",
-  "build": 2010,
+  "version": "2.0.0",
+  "build": 2011,
   "mandatory": true,
-  "minimum_build": 2010,
+  "minimum_build": 2011,
 
-  "title_ar": "تحديث رفيق AOU 1.6.0",
-  "message_ar": "تحديثات وتحسينات جديدة في رفيق AOU.",
+  "title_ar": "تحديث رفيق AOU 2.0.0",
+  "message_ar": "نقلة جديدة: وضع اليوم أذكى، متابعة أكاديمية وتنبيهات أهم، ومزامنة تفضيلات آمنة.",
 
-  "title_en": "AOU Hub 1.6.0",
-  "message_en": "New updates and improvements to AOU Hub."
+  "title_en": "AOU Hub 2.0.0",
+  "message_en": "A big step up: smarter Today mode, academic follow-up and better alerts, and safe preference sync."
 }

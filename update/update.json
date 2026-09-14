@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "manifest": {
-    "sequence": 4,
-    "generated_at": "2026-09-14T04:49:44Z",
-    "expires_at": "2026-12-13T04:49:44Z"
+    "sequence": 5,
+    "generated_at": "2026-09-14T08:58:55Z",
+    "expires_at": "2026-12-13T08:58:55Z"
   },
   "application": {
     "id": "dev.soliman.aou_hub",
@@ -20,41 +20,41 @@
   "channels": {
     "stable": {
       "minimum_supported": {
-        "version": "1.6.0",
-        "build": 2010,
+        "version": "2.0.0",
+        "build": 2011,
         "message": {
           "ar": "النسخة دي بقت قديمة ومبقتش مدعومة. حدّث التطبيق عشان تكمل.",
           "en": "This version is no longer supported. Update to continue."
         }
       },
       "latest": {
-        "version": "1.6.0",
-        "build": 2010,
+        "version": "2.0.0",
+        "build": 2011,
         "type": "regular",
         "mandatory": true,
         "mandatory_after": null,
         "withdrawn": false,
-        "released_at": "2026-09-14T04:49:44Z",
+        "released_at": "2026-09-14T08:58:55Z",
         "title": {
-          "ar": "تحديث رفيق AOU 1.6.0",
-          "en": "AOU Hub 1.6.0"
+          "ar": "تحديث رفيق AOU 2.0.0",
+          "en": "AOU Hub 2.0.0"
         },
         "summary": {
-          "ar": "تحديثات وتحسينات جديدة في رفيق AOU.",
-          "en": "New updates and improvements to AOU Hub."
+          "ar": "نقلة جديدة: وضع اليوم أذكى، متابعة أكاديمية وتنبيهات أهم، ومزامنة تفضيلات آمنة.",
+          "en": "A big step up: smarter Today mode, academic follow-up and better alerts, and safe preference sync."
         },
         "highlights": [],
-        "release_notes_url": "https://github.com/ssssoliman937-design/aouapp/releases/tag/v1.6.0",
+        "release_notes_url": "https://github.com/ssssoliman937-design/aouapp/releases/tag/v2.0.0",
         "requirements": {
           "min_android_sdk": 24
         },
         "packages": [
           {
             "abi": "universal",
-            "file_name": "AOU-Hub-1.6.0-2010-universal.apk",
-            "url": "https://github.com/ssssoliman937-design/aouapp/releases/download/v1.6.0/AOU-Hub-1.6.0-2010-universal.apk",
-            "size_bytes": 64623317,
-            "sha256": "e6f1b882568384be7eeab43f58af27f54f9d898cc16127e76c0840f56072b4f2"
+            "file_name": "AOU-Hub-2.0.0-2011-universal.apk",
+            "url": "https://github.com/ssssoliman937-design/aouapp/releases/download/v2.0.0/AOU-Hub-2.0.0-2011-universal.apk",
+            "size_bytes": 64657028,
+            "sha256": "76ab11ff59b94e3205c071b395ab4389a6ff4ef739ae577ca6d310c00ff06521"
           }
         ]
       }
