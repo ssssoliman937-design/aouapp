@@ -1,12 +1,12 @@
 {
-  "version": "1.5.1",
-  "build": 2009,
+  "version": "1.6.0",
+  "build": 2010,
   "mandatory": true,
-  "minimum_build": 2009,
+  "minimum_build": 2010,
 
-  "title_ar": "تحديث رفيق AOU 1.5.1",
-  "message_ar": "تسجيل دخول جديد وأوضح: شاشة ترحيب، حساب Google أو ضيف أو حساب الجامعة، وحساباتك المحفوظة في مكان واحد.",
+  "title_ar": "تحديث رفيق AOU 1.6.0",
+  "message_ar": "تحديثات وتحسينات جديدة في رفيق AOU.",
 
-  "title_en": "AOU Hub 1.5.1",
-  "message_en": "A clearer new sign-in: a welcome screen, Google / guest / university account, and your saved logins in one place."
+  "title_en": "AOU Hub 1.6.0",
+  "message_en": "New updates and improvements to AOU Hub."
 }
