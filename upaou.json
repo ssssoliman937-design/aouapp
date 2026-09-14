@@ -1,12 +1,12 @@
 {
-  "version": "2.0.0",
-  "build": 2011,
+  "version": "2.0.1",
+  "build": 2012,
   "mandatory": true,
-  "minimum_build": 2011,
+  "minimum_build": 2012,
 
-  "title_ar": "تحديث رفيق AOU 2.0.0",
-  "message_ar": "نقلة جديدة: وضع اليوم أذكى، متابعة أكاديمية وتنبيهات أهم، ومزامنة تفضيلات آمنة.",
+  "title_ar": "تحديث رفيق AOU 2.0.1",
+  "message_ar": "مخطط المعدل الكامل، مزامنة إعدادات آمنة، وشريط إشعارات الخدمة.",
 
-  "title_en": "AOU Hub 2.0.0",
-  "message_en": "A big step up: smarter Today mode, academic follow-up and better alerts, and safe preference sync."
+  "title_en": "AOU Hub 2.0.1",
+  "message_en": "Full GPA planner, safe settings sync, and a service-notice banner."
 }
