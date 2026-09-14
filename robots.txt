@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ssssoliman937-design.github.io/aouapp/sitemap.xml
