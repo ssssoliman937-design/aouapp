@@ -1,12 +1,12 @@
 {
-  "version": "2.0.1",
-  "build": 2012,
+  "version": "2.0.2",
+  "build": 2013,
   "mandatory": true,
-  "minimum_build": 2012,
+  "minimum_build": 2013,
 
-  "title_ar": "تحديث رفيق AOU 2.0.1",
-  "message_ar": "مخطط المعدل الكامل، مزامنة إعدادات آمنة، وشريط إشعارات الخدمة.",
+  "title_ar": "تحديث رفيق AOU 2.0.2",
+  "message_ar": "تحسين جاهزية تسجيل الدخول بحساب رفيق AOU، وتحسينات عامة في الاستقرار.",
 
-  "title_en": "AOU Hub 2.0.1",
-  "message_en": "Full GPA planner, safe settings sync, and a service-notice banner."
+  "title_en": "AOU Hub 2.0.2",
+  "message_en": "Improved AOU Hub account sign-in readiness and general stability."
 }

@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "manifest": {
-    "sequence": 6,
-    "generated_at": "2026-09-14T15:09:20Z",
-    "expires_at": "2026-12-13T15:09:20Z"
+    "sequence": 7,
+    "generated_at": "2026-09-14T18:01:39Z",
+    "expires_at": "2026-12-13T18:01:39Z"
   },
   "application": {
     "id": "dev.soliman.aou_hub",
@@ -20,41 +20,41 @@
   "channels": {
     "stable": {
       "minimum_supported": {
-        "version": "2.0.1",
-        "build": 2012,
+        "version": "2.0.2",
+        "build": 2013,
         "message": {
           "ar": "النسخة دي بقت قديمة ومبقتش مدعومة. حدّث التطبيق عشان تكمل.",
           "en": "This version is no longer supported. Update to continue."
         }
       },
       "latest": {
-        "version": "2.0.1",
-        "build": 2012,
+        "version": "2.0.2",
+        "build": 2013,
         "type": "regular",
         "mandatory": true,
         "mandatory_after": null,
         "withdrawn": false,
-        "released_at": "2026-09-14T15:09:20Z",
+        "released_at": "2026-09-14T18:01:39Z",
         "title": {
-          "ar": "تحديث رفيق AOU 2.0.1",
-          "en": "AOU Hub 2.0.1"
+          "ar": "تحديث رفيق AOU 2.0.2",
+          "en": "AOU Hub 2.0.2"
         },
         "summary": {
-          "ar": "مخطط المعدل الكامل، مزامنة إعدادات آمنة، وشريط إشعارات الخدمة.",
-          "en": "Full GPA planner, safe settings sync, and a service-notice banner."
+          "ar": "تحسين جاهزية تسجيل الدخول بحساب رفيق AOU، وتحسينات عامة في الاستقرار.",
+          "en": "Improved AOU Hub account sign-in readiness and general stability."
         },
         "highlights": [],
-        "release_notes_url": "https://github.com/ssssoliman937-design/aouapp/releases/tag/v2.0.1",
+        "release_notes_url": "https://github.com/ssssoliman937-design/aouapp/releases/tag/v2.0.2",
         "requirements": {
           "min_android_sdk": 24
         },
         "packages": [
           {
             "abi": "universal",
-            "file_name": "AOU-Hub-2.0.1-2012-universal.apk",
-            "url": "https://github.com/ssssoliman937-design/aouapp/releases/download/v2.0.1/AOU-Hub-2.0.1-2012-universal.apk",
-            "size_bytes": 64853940,
-            "sha256": "2c1633a0ed6c09deeba5fbe6d35bb2fe82ed8f8336ff4860d9e00ec86d3a1370"
+            "file_name": "AOU-Hub-2.0.2-2013-universal.apk",
+            "url": "https://github.com/ssssoliman937-design/aouapp/releases/download/v2.0.2/AOU-Hub-2.0.2-2013-universal.apk",
+            "size_bytes": 64853929,
+            "sha256": "da164a1dbce177a3d705b7b86ba8d648a223d09883b100c14051efc319d85d0b"
           }
         ]
       }
