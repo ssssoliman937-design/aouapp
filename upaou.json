@@ -1,8 +1,8 @@
 {
   "version": "1.5.1",
   "build": 2009,
-  "mandatory": false,
-  "minimum_build": 2007,
+  "mandatory": true,
+  "minimum_build": 2009,
 
   "title_ar": "تحديث رفيق AOU 1.5.1",
   "message_ar": "تسجيل دخول جديد وأوضح: شاشة ترحيب، حساب Google أو ضيف أو حساب الجامعة، وحساباتك المحفوظة في مكان واحد.",
