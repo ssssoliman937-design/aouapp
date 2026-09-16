@@ -1,12 +1,12 @@
 {
-  "version": "2.0.2",
-  "build": 2013,
+  "version": "2.0.3",
+  "build": 2014,
   "mandatory": true,
-  "minimum_build": 2013,
+  "minimum_build": 2014,
 
-  "title_ar": "تحديث رفيق AOU 2.0.2",
-  "message_ar": "تحسين جاهزية تسجيل الدخول بحساب رفيق AOU، وتحسينات عامة في الاستقرار.",
+  "title_ar": "تحديث رفيق AOU 2.0.3",
+  "message_ar": "إصلاح مشكلة توقّف شاشة «مرحبًا بعودتك» على علامة التحميل عند فتح التطبيق بحساب محفوظ، مع ضمان إن أي محاولة استرجاع للجلسة تنتهي دايمًا لحالة واضحة، وتحسينات في استقرار تسجيل الدخول.",
 
-  "title_en": "AOU Hub 2.0.2",
-  "message_en": "Improved AOU Hub account sign-in readiness and general stability."
+  "title_en": "AOU Hub 2.0.3",
+  "message_en": "Fixes the returning-user “welcome back” screen that could hang on the loading spinner when opening with a saved account, guarantees every session-restore path resolves to a clear state, and improves sign-in stability."
 }

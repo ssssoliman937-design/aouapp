@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "manifest": {
-    "sequence": 7,
-    "generated_at": "2026-09-14T18:01:39Z",
-    "expires_at": "2026-12-13T18:01:39Z"
+    "sequence": 8,
+    "generated_at": "2026-09-16T18:26:57Z",
+    "expires_at": "2026-12-15T18:26:57Z"
   },
   "application": {
     "id": "dev.soliman.aou_hub",
@@ -20,41 +20,41 @@
   "channels": {
     "stable": {
       "minimum_supported": {
-        "version": "2.0.2",
-        "build": 2013,
+        "version": "2.0.3",
+        "build": 2014,
         "message": {
           "ar": "النسخة دي بقت قديمة ومبقتش مدعومة. حدّث التطبيق عشان تكمل.",
           "en": "This version is no longer supported. Update to continue."
         }
       },
       "latest": {
-        "version": "2.0.2",
-        "build": 2013,
+        "version": "2.0.3",
+        "build": 2014,
         "type": "regular",
         "mandatory": true,
         "mandatory_after": null,
         "withdrawn": false,
-        "released_at": "2026-09-14T18:01:39Z",
+        "released_at": "2026-09-16T18:26:57Z",
         "title": {
-          "ar": "تحديث رفيق AOU 2.0.2",
-          "en": "AOU Hub 2.0.2"
+          "ar": "تحديث رفيق AOU 2.0.3",
+          "en": "AOU Hub 2.0.3"
         },
         "summary": {
-          "ar": "تحسين جاهزية تسجيل الدخول بحساب رفيق AOU، وتحسينات عامة في الاستقرار.",
-          "en": "Improved AOU Hub account sign-in readiness and general stability."
+          "ar": "إصلاح مشكلة توقّف شاشة «مرحبًا بعودتك» على علامة التحميل عند فتح التطبيق بحساب محفوظ، مع ضمان إن أي محاولة استرجاع للجلسة تنتهي دايمًا لحالة واضحة، وتحسينات في استقرار تسجيل الدخول.",
+          "en": "Fixes the returning-user “welcome back” screen that could hang on the loading spinner when opening with a saved account, guarantees every session-restore path resolves to a clear state, and improves sign-in stability."
         },
         "highlights": [],
-        "release_notes_url": "https://github.com/ssssoliman937-design/aouapp/releases/tag/v2.0.2",
+        "release_notes_url": "https://github.com/ssssoliman937-design/aouapp/releases/tag/v2.0.3",
         "requirements": {
           "min_android_sdk": 24
         },
         "packages": [
           {
             "abi": "universal",
-            "file_name": "AOU-Hub-2.0.2-2013-universal.apk",
-            "url": "https://github.com/ssssoliman937-design/aouapp/releases/download/v2.0.2/AOU-Hub-2.0.2-2013-universal.apk",
-            "size_bytes": 64853929,
-            "sha256": "da164a1dbce177a3d705b7b86ba8d648a223d09883b100c14051efc319d85d0b"
+            "file_name": "AOU-Hub-2.0.3-2014-universal.apk",
+            "url": "https://github.com/ssssoliman937-design/aouapp/releases/download/v2.0.3/AOU-Hub-2.0.3-2014-universal.apk",
+            "size_bytes": 64853915,
+            "sha256": "0f9e74ab9c55a9fb0deeb04c061a24fe09d2811d17a83a8e36bd895cb650a9f8"
           }
         ]
       }
