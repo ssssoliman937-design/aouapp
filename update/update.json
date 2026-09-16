@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "manifest": {
-    "sequence": 8,
-    "generated_at": "2026-09-16T18:26:57Z",
-    "expires_at": "2026-12-15T18:26:57Z"
+    "sequence": 9,
+    "generated_at": "2026-09-16T19:01:19Z",
+    "expires_at": "2026-12-15T19:01:19Z"
   },
   "application": {
     "id": "dev.soliman.aou_hub",
@@ -20,41 +20,41 @@
   "channels": {
     "stable": {
       "minimum_supported": {
-        "version": "2.0.3",
-        "build": 2014,
+        "version": "2.0.4",
+        "build": 2015,
         "message": {
           "ar": "النسخة دي بقت قديمة ومبقتش مدعومة. حدّث التطبيق عشان تكمل.",
           "en": "This version is no longer supported. Update to continue."
         }
       },
       "latest": {
-        "version": "2.0.3",
-        "build": 2014,
+        "version": "2.0.4",
+        "build": 2015,
         "type": "regular",
         "mandatory": true,
         "mandatory_after": null,
         "withdrawn": false,
-        "released_at": "2026-09-16T18:26:57Z",
+        "released_at": "2026-09-16T19:01:19Z",
         "title": {
-          "ar": "تحديث رفيق AOU 2.0.3",
-          "en": "AOU Hub 2.0.3"
+          "ar": "تحديث رفيق AOU 2.0.4",
+          "en": "AOU Hub 2.0.4"
         },
         "summary": {
-          "ar": "إصلاح مشكلة توقّف شاشة «مرحبًا بعودتك» على علامة التحميل عند فتح التطبيق بحساب محفوظ، مع ضمان إن أي محاولة استرجاع للجلسة تنتهي دايمًا لحالة واضحة، وتحسينات في استقرار تسجيل الدخول.",
-          "en": "Fixes the returning-user “welcome back” screen that could hang on the loading spinner when opening with a saved account, guarantees every session-restore path resolves to a clear state, and improves sign-in stability."
+          "ar": "شاشة الكورسات بقت تعرض كورسات الترم الحالي المسجّلة بس (مصدرها SIS)، من غير كورسات ترمات قديمة من الـLMS، ومن غير تكرار. صفحة تفاصيل الكورس بتفتح وتعرض بيانات حقيقية (المحاضر، المحاضرة القادمة، التكليفات، الدرجات، المحتوى) مع حالات فاضية أمينة.",
+          "en": "The Courses screen now shows only your current-term registered courses (SIS is the source of truth) — no stale past-semester LMS courses and no duplicates. Course details reliably open and show real data (instructor, next lecture, assignments, grades, content) with honest empty states."
         },
         "highlights": [],
-        "release_notes_url": "https://github.com/ssssoliman937-design/aouapp/releases/tag/v2.0.3",
+        "release_notes_url": "https://github.com/ssssoliman937-design/aouapp/releases/tag/v2.0.4",
         "requirements": {
           "min_android_sdk": 24
         },
         "packages": [
           {
             "abi": "universal",
-            "file_name": "AOU-Hub-2.0.3-2014-universal.apk",
-            "url": "https://github.com/ssssoliman937-design/aouapp/releases/download/v2.0.3/AOU-Hub-2.0.3-2014-universal.apk",
-            "size_bytes": 64853915,
-            "sha256": "0f9e74ab9c55a9fb0deeb04c061a24fe09d2811d17a83a8e36bd895cb650a9f8"
+            "file_name": "AOU-Hub-2.0.4-2015-universal.apk",
+            "url": "https://github.com/ssssoliman937-design/aouapp/releases/download/v2.0.4/AOU-Hub-2.0.4-2015-universal.apk",
+            "size_bytes": 64853927,
+            "sha256": "03ae3d7e99d18ddc426ab42e36c5f46f4d04489383296199b0d0a3b787e33aea"
           }
         ]
       }

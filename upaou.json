@@ -1,12 +1,12 @@
 {
-  "version": "2.0.3",
-  "build": 2014,
+  "version": "2.0.4",
+  "build": 2015,
   "mandatory": true,
-  "minimum_build": 2014,
+  "minimum_build": 2015,
 
-  "title_ar": "تحديث رفيق AOU 2.0.3",
-  "message_ar": "إصلاح مشكلة توقّف شاشة «مرحبًا بعودتك» على علامة التحميل عند فتح التطبيق بحساب محفوظ، مع ضمان إن أي محاولة استرجاع للجلسة تنتهي دايمًا لحالة واضحة، وتحسينات في استقرار تسجيل الدخول.",
+  "title_ar": "تحديث رفيق AOU 2.0.4",
+  "message_ar": "شاشة الكورسات بقت تعرض كورسات الترم الحالي المسجّلة بس (مصدرها SIS)، من غير كورسات ترمات قديمة من الـLMS، ومن غير تكرار. صفحة تفاصيل الكورس بتفتح وتعرض بيانات حقيقية (المحاضر، المحاضرة القادمة، التكليفات، الدرجات، المحتوى) مع حالات فاضية أمينة.",
 
-  "title_en": "AOU Hub 2.0.3",
-  "message_en": "Fixes the returning-user “welcome back” screen that could hang on the loading spinner when opening with a saved account, guarantees every session-restore path resolves to a clear state, and improves sign-in stability."
+  "title_en": "AOU Hub 2.0.4",
+  "message_en": "The Courses screen now shows only your current-term registered courses (SIS is the source of truth) — no stale past-semester LMS courses and no duplicates. Course details reliably open and show real data (instructor, next lecture, assignments, grades, content) with honest empty states."
 }
