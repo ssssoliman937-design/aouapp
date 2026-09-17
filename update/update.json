@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "manifest": {
-    "sequence": 10,
-    "generated_at": "2026-09-17T05:48:02Z",
-    "expires_at": "2026-12-16T05:48:02Z"
+    "sequence": 11,
+    "generated_at": "2026-09-17T05:52:49Z",
+    "expires_at": "2026-12-16T05:52:49Z"
   },
   "application": {
     "id": "dev.soliman.aou_hub",
@@ -34,14 +34,14 @@
         "mandatory": true,
         "mandatory_after": null,
         "withdrawn": false,
-        "released_at": "2026-09-17T05:48:02Z",
+        "released_at": "2026-09-17T05:52:49Z",
         "title": {
           "ar": "تحديث رفيق AOU 2.0.5",
           "en": "AOU Hub 2.0.5"
         },
         "summary": {
-          "ar": "المالية بقت تفاعلية بالكامل: دوس أي عملية أو إيصال تشوف تفاصيلها (النوع، المبلغ، التاريخ، المادة، رقم المرجع) مع نسخ ومشاركة ملخص، وفلاتر للمدفوعات والمستحقات، والدفع بيفتح الموقع الرسمي بس. الشاشة الرئيسية فيها ملخص أكاديمي واحد مرتّب — المعدل والساعات والخطة، وكل رقم بيوديك لمكانه. وأضفنا خيار «الحركات المتقدمة» في الإعدادات.",
-          "en": "Finance is now fully interactive: tap any transaction or slip for its details (type, amount, date, course, reference) with copy and share, filters for payments and dues, and payment that opens only the official site. The home screen has one clean Academic Summary — GPA, credits and plan, each tapping through to where it lives. Plus a new Enhanced Motion option in settings."
+          "ar": "المالية بقت تفاعلية بالكامل: دوس أي عملية أو إيصال تشوف تفاصيلها (النوع، المبلغ، التاريخ، المادة، رقم المرجع) مع نسخ ومشاركة ملخص، وفلاتر للمدفوعات والمستحقات، والدفع بيفتح الموقع الرسمي بس. والشاشة الرئيسية فيها ملخص أكاديمي واحد مرتّب — المعدل والساعات والخطة، وكل رقم بيوديك لمكانه.",
+          "en": "Finance is now fully interactive: tap any transaction or slip for its details (type, amount, date, course, reference) with copy and share, filters for payments and dues, and payment that opens only the official site. The home screen has one clean Academic Summary — GPA, credits and plan, each tapping through to where it lives."
         },
         "highlights": [],
         "release_notes_url": "https://github.com/ssssoliman937-design/aouapp/releases/tag/v2.0.5",
