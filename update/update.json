@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "manifest": {
-    "sequence": 9,
-    "generated_at": "2026-09-16T19:01:19Z",
-    "expires_at": "2026-12-15T19:01:19Z"
+    "sequence": 10,
+    "generated_at": "2026-09-17T05:48:02Z",
+    "expires_at": "2026-12-16T05:48:02Z"
   },
   "application": {
     "id": "dev.soliman.aou_hub",
@@ -28,33 +28,33 @@
         }
       },
       "latest": {
-        "version": "2.0.4",
-        "build": 2015,
+        "version": "2.0.5",
+        "build": 2016,
         "type": "regular",
         "mandatory": true,
         "mandatory_after": null,
         "withdrawn": false,
-        "released_at": "2026-09-16T19:01:19Z",
+        "released_at": "2026-09-17T05:48:02Z",
         "title": {
-          "ar": "تحديث رفيق AOU 2.0.4",
-          "en": "AOU Hub 2.0.4"
+          "ar": "تحديث رفيق AOU 2.0.5",
+          "en": "AOU Hub 2.0.5"
         },
         "summary": {
-          "ar": "شاشة الكورسات بقت تعرض كورسات الترم الحالي المسجّلة بس (مصدرها SIS)، من غير كورسات ترمات قديمة من الـLMS، ومن غير تكرار. صفحة تفاصيل الكورس بتفتح وتعرض بيانات حقيقية (المحاضر، المحاضرة القادمة، التكليفات، الدرجات، المحتوى) مع حالات فاضية أمينة.",
-          "en": "The Courses screen now shows only your current-term registered courses (SIS is the source of truth) — no stale past-semester LMS courses and no duplicates. Course details reliably open and show real data (instructor, next lecture, assignments, grades, content) with honest empty states."
+          "ar": "المالية بقت تفاعلية بالكامل: دوس أي عملية أو إيصال تشوف تفاصيلها (النوع، المبلغ، التاريخ، المادة، رقم المرجع) مع نسخ ومشاركة ملخص، وفلاتر للمدفوعات والمستحقات، والدفع بيفتح الموقع الرسمي بس. الشاشة الرئيسية فيها ملخص أكاديمي واحد مرتّب — المعدل والساعات والخطة، وكل رقم بيوديك لمكانه. وأضفنا خيار «الحركات المتقدمة» في الإعدادات.",
+          "en": "Finance is now fully interactive: tap any transaction or slip for its details (type, amount, date, course, reference) with copy and share, filters for payments and dues, and payment that opens only the official site. The home screen has one clean Academic Summary — GPA, credits and plan, each tapping through to where it lives. Plus a new Enhanced Motion option in settings."
         },
         "highlights": [],
-        "release_notes_url": "https://github.com/ssssoliman937-design/aouapp/releases/tag/v2.0.4",
+        "release_notes_url": "https://github.com/ssssoliman937-design/aouapp/releases/tag/v2.0.5",
         "requirements": {
           "min_android_sdk": 24
         },
         "packages": [
           {
             "abi": "universal",
-            "file_name": "AOU-Hub-2.0.4-2015-universal.apk",
-            "url": "https://github.com/ssssoliman937-design/aouapp/releases/download/v2.0.4/AOU-Hub-2.0.4-2015-universal.apk",
-            "size_bytes": 64853927,
-            "sha256": "03ae3d7e99d18ddc426ab42e36c5f46f4d04489383296199b0d0a3b787e33aea"
+            "file_name": "AOU-Hub-2.0.5-2016-universal.apk",
+            "url": "https://github.com/ssssoliman937-design/aouapp/releases/download/v2.0.5/AOU-Hub-2.0.5-2016-universal.apk",
+            "size_bytes": 65034271,
+            "sha256": "eb1eddf7908eba7ad0e4c6c8db7898b4e90db2bb0d539855853fbd6296ce2d84"
           }
         ]
       }
