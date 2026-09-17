@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "manifest": {
-    "sequence": 11,
-    "generated_at": "2026-09-17T05:52:49Z",
-    "expires_at": "2026-12-16T05:52:49Z"
+    "sequence": 12,
+    "generated_at": "2026-09-17T22:43:28Z",
+    "expires_at": "2026-12-16T22:43:28Z"
   },
   "application": {
     "id": "dev.soliman.aou_hub",
@@ -20,8 +20,8 @@
   "channels": {
     "stable": {
       "minimum_supported": {
-        "version": "2.0.4",
-        "build": 2015,
+        "version": "2.0.5",
+        "build": 2016,
         "message": {
           "ar": "النسخة دي بقت قديمة ومبقتش مدعومة. حدّث التطبيق عشان تكمل.",
           "en": "This version is no longer supported. Update to continue."
@@ -29,19 +29,19 @@
       },
       "latest": {
         "version": "2.0.5",
-        "build": 2016,
+        "build": 2017,
         "type": "regular",
         "mandatory": true,
         "mandatory_after": null,
         "withdrawn": false,
-        "released_at": "2026-09-17T05:52:49Z",
+        "released_at": "2026-09-17T22:43:28Z",
         "title": {
           "ar": "تحديث رفيق AOU 2.0.5",
           "en": "AOU Hub 2.0.5"
         },
         "summary": {
-          "ar": "المالية بقت تفاعلية بالكامل: دوس أي عملية أو إيصال تشوف تفاصيلها (النوع، المبلغ، التاريخ، المادة، رقم المرجع) مع نسخ ومشاركة ملخص، وفلاتر للمدفوعات والمستحقات، والدفع بيفتح الموقع الرسمي بس. والشاشة الرئيسية فيها ملخص أكاديمي واحد مرتّب — المعدل والساعات والخطة، وكل رقم بيوديك لمكانه.",
-          "en": "Finance is now fully interactive: tap any transaction or slip for its details (type, amount, date, course, reference) with copy and share, filters for payments and dues, and payment that opens only the official site. The home screen has one clean Academic Summary — GPA, credits and plan, each tapping through to where it lives."
+          "ar": "إصلاحات خفيفة وتحسينات في عرض البيانات والإعدادات.",
+          "en": "Minor fixes and improvements to data display and settings."
         },
         "highlights": [],
         "release_notes_url": "https://github.com/ssssoliman937-design/aouapp/releases/tag/v2.0.5",
@@ -51,10 +51,10 @@
         "packages": [
           {
             "abi": "universal",
-            "file_name": "AOU-Hub-2.0.5-2016-universal.apk",
-            "url": "https://github.com/ssssoliman937-design/aouapp/releases/download/v2.0.5/AOU-Hub-2.0.5-2016-universal.apk",
-            "size_bytes": 65034271,
-            "sha256": "eb1eddf7908eba7ad0e4c6c8db7898b4e90db2bb0d539855853fbd6296ce2d84"
+            "file_name": "AOU-Hub-2.0.5-2017-universal.apk",
+            "url": "https://github.com/ssssoliman937-design/aouapp/releases/download/v2.0.5/AOU-Hub-2.0.5-2017-universal.apk",
+            "size_bytes": 65067345,
+            "sha256": "d020e0b75bbc84ce226318c0cf64afb958794c1172dd2b4f56aff73c206b2615"
           }
         ]
       }

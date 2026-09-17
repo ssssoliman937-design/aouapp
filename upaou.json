@@ -1,12 +1,12 @@
 {
   "version": "2.0.5",
-  "build": 2016,
+  "build": 2017,
   "mandatory": true,
-  "minimum_build": 2015,
+  "minimum_build": 2016,
 
   "title_ar": "تحديث رفيق AOU 2.0.5",
-  "message_ar": "المالية بقت تفاعلية بالكامل: دوس أي عملية أو إيصال تشوف تفاصيلها (النوع، المبلغ، التاريخ، المادة، رقم المرجع) مع نسخ ومشاركة ملخص، وفلاتر للمدفوعات والمستحقات، والدفع بيفتح الموقع الرسمي بس. والشاشة الرئيسية فيها ملخص أكاديمي واحد مرتّب — المعدل والساعات والخطة، وكل رقم بيوديك لمكانه.",
+  "message_ar": "إصلاحات خفيفة وتحسينات في عرض البيانات والإعدادات.",
 
   "title_en": "AOU Hub 2.0.5",
-  "message_en": "Finance is now fully interactive: tap any transaction or slip for its details (type, amount, date, course, reference) with copy and share, filters for payments and dues, and payment that opens only the official site. The home screen has one clean Academic Summary — GPA, credits and plan, each tapping through to where it lives."
+  "message_en": "Minor fixes and improvements to data display and settings."
 }
