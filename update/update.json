@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "manifest": {
-    "sequence": 12,
-    "generated_at": "2026-09-17T22:43:28Z",
-    "expires_at": "2026-12-16T22:43:28Z"
+    "sequence": 13,
+    "generated_at": "2026-09-18T02:16:42Z",
+    "expires_at": "2026-12-17T02:16:42Z"
   },
   "application": {
     "id": "dev.soliman.aou_hub",
@@ -21,7 +21,7 @@
     "stable": {
       "minimum_supported": {
         "version": "2.0.5",
-        "build": 2016,
+        "build": 2017,
         "message": {
           "ar": "النسخة دي بقت قديمة ومبقتش مدعومة. حدّث التطبيق عشان تكمل.",
           "en": "This version is no longer supported. Update to continue."
@@ -29,21 +29,38 @@
       },
       "latest": {
         "version": "2.0.5",
-        "build": 2017,
+        "build": 2018,
         "type": "regular",
         "mandatory": true,
         "mandatory_after": null,
         "withdrawn": false,
-        "released_at": "2026-09-17T22:43:28Z",
+        "released_at": "2026-09-18T02:16:42Z",
         "title": {
           "ar": "تحديث رفيق AOU 2.0.5",
           "en": "AOU Hub 2.0.5"
         },
         "summary": {
-          "ar": "إصلاحات خفيفة وتحسينات في عرض البيانات والإعدادات.",
-          "en": "Minor fixes and improvements to data display and settings."
+          "ar": "إصلاحات خفيفة وتحسينات في الاستقرار والإشعارات.",
+          "en": "Minor fixes and improvements to stability and notifications."
         },
-        "highlights": [],
+        "highlights": [
+          {
+            "ar": "تحسين استقرار التطبيق.",
+            "en": "Improved app stability."
+          },
+          {
+            "ar": "تحسين نظام الإشعارات.",
+            "en": "Improved notification system."
+          },
+          {
+            "ar": "تحسين عرض البيانات.",
+            "en": "Improved data display."
+          },
+          {
+            "ar": "إصلاحات عامة.",
+            "en": "General fixes."
+          }
+        ],
         "release_notes_url": "https://github.com/ssssoliman937-design/aouapp/releases/tag/v2.0.5",
         "requirements": {
           "min_android_sdk": 24
@@ -51,10 +68,10 @@
         "packages": [
           {
             "abi": "universal",
-            "file_name": "AOU-Hub-2.0.5-2017-universal.apk",
-            "url": "https://github.com/ssssoliman937-design/aouapp/releases/download/v2.0.5/AOU-Hub-2.0.5-2017-universal.apk",
-            "size_bytes": 65067345,
-            "sha256": "d020e0b75bbc84ce226318c0cf64afb958794c1172dd2b4f56aff73c206b2615"
+            "file_name": "AOU-Hub-2.0.5-2018-universal.apk",
+            "url": "https://github.com/ssssoliman937-design/aouapp/releases/download/v2.0.5/AOU-Hub-2.0.5-2018-universal.apk",
+            "size_bytes": 65083981,
+            "sha256": "49329a14f6b449781360a8b48cb6a261edf02da2a53988385ea52706f1c848c8"
           }
         ]
       }

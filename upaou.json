@@ -1,12 +1,12 @@
 {
   "version": "2.0.5",
-  "build": 2017,
+  "build": 2018,
   "mandatory": true,
-  "minimum_build": 2016,
+  "minimum_build": 2017,
 
   "title_ar": "تحديث رفيق AOU 2.0.5",
-  "message_ar": "إصلاحات خفيفة وتحسينات في عرض البيانات والإعدادات.",
+  "message_ar": "إصلاحات خفيفة وتحسينات في الاستقرار والإشعارات.",
 
   "title_en": "AOU Hub 2.0.5",
-  "message_en": "Minor fixes and improvements to data display and settings."
+  "message_en": "Minor fixes and improvements to stability and notifications."
 }
