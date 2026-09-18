@@ -1,0 +1,9 @@
+{
+    "version":  "1.0.0",
+    "build":  1000,
+    "setup_url":  "https://github.com/ssssoliman937-design/aouapp/releases/download/server-v1.0.0/AOUHubServer-Setup.exe",
+    "sha256":  "78a6eb83b7ca8e7b4ca4c48b7821bed1ec8680f48e5cdc6676e912960f27d781",
+    "size":  11687117,
+    "published_at":  "2026-09-17T23:28:09Z",
+    "minimum_windows":  10240
+}
