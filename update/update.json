@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "manifest": {
-    "sequence": 13,
-    "generated_at": "2026-09-18T02:16:42Z",
-    "expires_at": "2026-12-17T02:16:42Z"
+    "sequence": 14,
+    "generated_at": "2026-09-24T19:32:01Z",
+    "expires_at": "2026-12-23T19:32:01Z"
   },
   "application": {
     "id": "dev.soliman.aou_hub",
@@ -20,58 +20,41 @@
   "channels": {
     "stable": {
       "minimum_supported": {
-        "version": "2.0.5",
-        "build": 2017,
+        "version": "2.1.2",
+        "build": 2023,
         "message": {
           "ar": "النسخة دي بقت قديمة ومبقتش مدعومة. حدّث التطبيق عشان تكمل.",
           "en": "This version is no longer supported. Update to continue."
         }
       },
       "latest": {
-        "version": "2.0.5",
-        "build": 2018,
+        "version": "2.1.2",
+        "build": 2023,
         "type": "regular",
         "mandatory": true,
         "mandatory_after": null,
         "withdrawn": false,
-        "released_at": "2026-09-18T02:16:42Z",
+        "released_at": "2026-09-24T19:32:01Z",
         "title": {
-          "ar": "تحديث رفيق AOU 2.0.5",
-          "en": "AOU Hub 2.0.5"
+          "ar": "رفيق AOU 2.1.2 — التصميم الجديد",
+          "en": "AOU Hub 2.1.2 — the new design"
         },
         "summary": {
-          "ar": "إصلاحات خفيفة وتحسينات في الاستقرار والإشعارات.",
-          "en": "Minor fixes and improvements to stability and notifications."
+          "ar": "تصميم جديد بالكامل بهوية الجامعة العربية المفتوحة الرسمية: شاشة النهارده، شريط تنقّل جديد، المواد والدرجات، والوضع الداكن.",
+          "en": "A complete redesign in the official Arab Open University identity: a new Today screen, new navigation, Courses and Grades, and dark mode."
         },
-        "highlights": [
-          {
-            "ar": "تحسين استقرار التطبيق.",
-            "en": "Improved app stability."
-          },
-          {
-            "ar": "تحسين نظام الإشعارات.",
-            "en": "Improved notification system."
-          },
-          {
-            "ar": "تحسين عرض البيانات.",
-            "en": "Improved data display."
-          },
-          {
-            "ar": "إصلاحات عامة.",
-            "en": "General fixes."
-          }
-        ],
-        "release_notes_url": "https://github.com/ssssoliman937-design/aouapp/releases/tag/v2.0.5",
+        "highlights": [],
+        "release_notes_url": "https://github.com/ssssoliman937-design/aouapp/releases/tag/v2.1.2",
         "requirements": {
           "min_android_sdk": 24
         },
         "packages": [
           {
             "abi": "universal",
-            "file_name": "AOU-Hub-2.0.5-2018-universal.apk",
-            "url": "https://github.com/ssssoliman937-design/aouapp/releases/download/v2.0.5/AOU-Hub-2.0.5-2018-universal.apk",
-            "size_bytes": 65083981,
-            "sha256": "49329a14f6b449781360a8b48cb6a261edf02da2a53988385ea52706f1c848c8"
+            "file_name": "AOU-Hub-2.1.2-2023-universal.apk",
+            "url": "https://github.com/ssssoliman937-design/aouapp/releases/download/v2.1.2/AOU-Hub-2.1.2-2023-universal.apk",
+            "size_bytes": 65345537,
+            "sha256": "db6c5bcd70258978bfea2f6c88e7dd9a2aaf0f0a0cb047fdce93069384ae0f88"
           }
         ]
       }

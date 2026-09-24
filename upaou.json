@@ -1,12 +1,12 @@
 {
-  "version": "2.0.5",
-  "build": 2018,
+  "version": "2.1.2",
+  "build": 2023,
   "mandatory": true,
-  "minimum_build": 2017,
+  "minimum_build": 2023,
 
-  "title_ar": "تحديث رفيق AOU 2.0.5",
-  "message_ar": "إصلاحات خفيفة وتحسينات في الاستقرار والإشعارات.",
+  "title_ar": "رفيق AOU 2.1.2 — التصميم الجديد",
+  "message_ar": "تصميم جديد بالكامل بهوية الجامعة العربية المفتوحة الرسمية: شاشة النهارده، شريط تنقّل جديد، المواد والدرجات، والوضع الداكن.",
 
-  "title_en": "AOU Hub 2.0.5",
-  "message_en": "Minor fixes and improvements to stability and notifications."
+  "title_en": "AOU Hub 2.1.2 — the new design",
+  "message_en": "A complete redesign in the official Arab Open University identity: a new Today screen, new navigation, Courses and Grades, and dark mode."
 }
