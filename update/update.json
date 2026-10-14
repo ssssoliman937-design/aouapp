@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "manifest": {
-    "sequence": 14,
-    "generated_at": "2026-09-24T19:32:01Z",
-    "expires_at": "2026-12-23T19:32:01Z"
+    "sequence": 15,
+    "generated_at": "2026-10-14T11:25:01Z",
+    "expires_at": "2027-01-12T11:25:01Z"
   },
   "application": {
     "id": "dev.soliman.aou_hub",
@@ -20,41 +20,41 @@
   "channels": {
     "stable": {
       "minimum_supported": {
-        "version": "2.1.2",
-        "build": 2023,
+        "version": "2.2.0",
+        "build": 2024,
         "message": {
           "ar": "النسخة دي بقت قديمة ومبقتش مدعومة. حدّث التطبيق عشان تكمل.",
           "en": "This version is no longer supported. Update to continue."
         }
       },
       "latest": {
-        "version": "2.1.2",
-        "build": 2023,
+        "version": "2.2.0",
+        "build": 2024,
         "type": "regular",
         "mandatory": true,
         "mandatory_after": null,
         "withdrawn": false,
-        "released_at": "2026-09-24T19:32:01Z",
+        "released_at": "2026-10-14T11:25:01Z",
         "title": {
-          "ar": "رفيق AOU 2.1.2 — التصميم الجديد",
-          "en": "AOU Hub 2.1.2 — the new design"
+          "ar": "رفيق AOU 2.2.0 — إشعارات أدق وبيانات أنضف",
+          "en": "AOU Hub 2.2.0 — sharper notifications, cleaner data"
         },
         "summary": {
-          "ar": "تصميم جديد بالكامل بهوية الجامعة العربية المفتوحة الرسمية: شاشة النهارده، شريط تنقّل جديد، المواد والدرجات، والوضع الداكن.",
-          "en": "A complete redesign in the official Arab Open University identity: a new Today screen, new navigation, Courses and Grades, and dark mode."
+          "ar": "إشعارات فورية للمواعيد والتحديثات، أسماء المحاضرين متظبطة، الواجبات القديمة مبقتش بتظهر كأنها حالية، حاسبة معدل أذكى، وعارض ملفات المواد مع التحميل.",
+          "en": "Instant notifications for deadlines and updates, cleaner lecturer names, previous-term assignments no longer shown as current, a smarter GPA planner, and a course-file viewer with downloads."
         },
         "highlights": [],
-        "release_notes_url": "https://github.com/ssssoliman937-design/aouapp/releases/tag/v2.1.2",
+        "release_notes_url": "https://github.com/ssssoliman937-design/aouapp/releases/tag/v2.2.0",
         "requirements": {
           "min_android_sdk": 24
         },
         "packages": [
           {
             "abi": "universal",
-            "file_name": "AOU-Hub-2.1.2-2023-universal.apk",
-            "url": "https://github.com/ssssoliman937-design/aouapp/releases/download/v2.1.2/AOU-Hub-2.1.2-2023-universal.apk",
-            "size_bytes": 65345537,
-            "sha256": "db6c5bcd70258978bfea2f6c88e7dd9a2aaf0f0a0cb047fdce93069384ae0f88"
+            "file_name": "AOU-Hub-2.2.0-2024-universal.apk",
+            "url": "https://github.com/ssssoliman937-design/aouapp/releases/download/v2.2.0/AOU-Hub-2.2.0-2024-universal.apk",
+            "size_bytes": 68735935,
+            "sha256": "05b99f1a9446976b2f87907c836a38a56b78776a3b326be0eb4f46e38eef128d"
           }
         ]
       }

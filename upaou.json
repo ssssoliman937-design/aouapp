@@ -1,12 +1,12 @@
 {
-  "version": "2.1.2",
-  "build": 2023,
+  "version": "2.2.0",
+  "build": 2024,
   "mandatory": true,
-  "minimum_build": 2023,
+  "minimum_build": 2024,
 
-  "title_ar": "رفيق AOU 2.1.2 — التصميم الجديد",
-  "message_ar": "تصميم جديد بالكامل بهوية الجامعة العربية المفتوحة الرسمية: شاشة النهارده، شريط تنقّل جديد، المواد والدرجات، والوضع الداكن.",
+  "title_ar": "رفيق AOU 2.2.0 — إشعارات أدق وبيانات أنضف",
+  "message_ar": "إشعارات فورية للمواعيد والتحديثات، أسماء المحاضرين متظبطة، الواجبات القديمة مبقتش بتظهر كأنها حالية، حاسبة معدل أذكى، وعارض ملفات المواد مع التحميل.",
 
-  "title_en": "AOU Hub 2.1.2 — the new design",
-  "message_en": "A complete redesign in the official Arab Open University identity: a new Today screen, new navigation, Courses and Grades, and dark mode."
+  "title_en": "AOU Hub 2.2.0 — sharper notifications, cleaner data",
+  "message_en": "Instant notifications for deadlines and updates, cleaner lecturer names, previous-term assignments no longer shown as current, a smarter GPA planner, and a course-file viewer with downloads."
 }
