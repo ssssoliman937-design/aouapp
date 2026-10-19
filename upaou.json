@@ -1,12 +1,12 @@
 {
-  "version": "2.2.2",
-  "build": 2026,
-  "mandatory": true,
+  "version": "2.2.3",
+  "build": 2027,
+  "mandatory": false,
   "minimum_build": 2026,
 
-  "title_ar": "رفيق AOU 2.2.2 — ذكّرني",
-  "message_ar": "اضغط الجرس جنب أي محاضرة أو واجب أو امتحان واختار إمتى نفكّرك، والتذكير بيوصل حتى والتطبيق مقفول. أسماء المحاضرين بقت مظبوطة، ولوحة الأدمن بتعرض أرقام حقيقية.",
+  "title_ar": "رفيق AOU 2.2.3 — تحسين صغير",
+  "message_ar": "نافذة «ذكّرني» بقت بتتمرّر على الشاشات القصيرة ومبقتش بتتقصّ.",
 
-  "title_en": "AOU Hub 2.2.2 — Remind me",
-  "message_en": "Tap the bell on any lecture, assignment or exam to choose when to be reminded — it arrives even with the app closed. Lecturer titles are fixed, and the admin dashboard shows real numbers."
+  "title_en": "AOU Hub 2.2.3 — small fix",
+  "message_en": "The Remind-me sheet now scrolls on short screens instead of clipping."
 }

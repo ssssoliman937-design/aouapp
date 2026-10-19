@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "manifest": {
-    "sequence": 18,
-    "generated_at": "2026-10-19T19:30:40Z",
-    "expires_at": "2027-01-17T19:30:40Z"
+    "sequence": 19,
+    "generated_at": "2026-10-19T21:02:42Z",
+    "expires_at": "2027-01-17T21:02:42Z"
   },
   "application": {
     "id": "dev.soliman.aou_hub",
@@ -28,33 +28,33 @@
         }
       },
       "latest": {
-        "version": "2.2.2",
-        "build": 2026,
+        "version": "2.2.3",
+        "build": 2027,
         "type": "regular",
-        "mandatory": true,
+        "mandatory": false,
         "mandatory_after": null,
         "withdrawn": false,
-        "released_at": "2026-10-19T19:30:40Z",
+        "released_at": "2026-10-19T21:02:42Z",
         "title": {
-          "ar": "رفيق AOU 2.2.2 — ذكّرني",
-          "en": "AOU Hub 2.2.2 — Remind me"
+          "ar": "رفيق AOU 2.2.3 — تحسين صغير",
+          "en": "AOU Hub 2.2.3 — small fix"
         },
         "summary": {
-          "ar": "اضغط الجرس جنب أي محاضرة أو واجب أو امتحان واختار إمتى نفكّرك، والتذكير بيوصل حتى والتطبيق مقفول. أسماء المحاضرين بقت مظبوطة، ولوحة الأدمن بتعرض أرقام حقيقية.",
-          "en": "Tap the bell on any lecture, assignment or exam to choose when to be reminded — it arrives even with the app closed. Lecturer titles are fixed, and the admin dashboard shows real numbers."
+          "ar": "نافذة «ذكّرني» بقت بتتمرّر على الشاشات القصيرة ومبقتش بتتقصّ.",
+          "en": "The Remind-me sheet now scrolls on short screens instead of clipping."
         },
         "highlights": [],
-        "release_notes_url": "https://github.com/ssssoliman937-design/aouapp/releases/tag/v2.2.2",
+        "release_notes_url": "https://github.com/ssssoliman937-design/aouapp/releases/tag/v2.2.3",
         "requirements": {
           "min_android_sdk": 24
         },
         "packages": [
           {
             "abi": "universal",
-            "file_name": "AOU-Hub-2.2.2-2026-universal.apk",
-            "url": "https://github.com/ssssoliman937-design/aouapp/releases/download/v2.2.2/AOU-Hub-2.2.2-2026-universal.apk",
+            "file_name": "AOU-Hub-2.2.3-2027-universal.apk",
+            "url": "https://github.com/ssssoliman937-design/aouapp/releases/download/v2.2.3/AOU-Hub-2.2.3-2027-universal.apk",
             "size_bytes": 69088172,
-            "sha256": "188a4f77e224251c51ed34eb3e5c304f1a51bfabc71d05601f67b4026032362a"
+            "sha256": "c869b7aedb141b4966ae4a8dfe82e20421dc359f99e101f9a85e3be15a739566"
           }
         ]
       }
