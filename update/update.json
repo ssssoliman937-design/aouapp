@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "manifest": {
-    "sequence": 15,
-    "generated_at": "2026-10-14T11:25:01Z",
-    "expires_at": "2027-01-12T11:25:01Z"
+    "sequence": 16,
+    "generated_at": "2026-10-19T14:27:13Z",
+    "expires_at": "2027-01-17T14:27:13Z"
   },
   "application": {
     "id": "dev.soliman.aou_hub",
@@ -20,41 +20,41 @@
   "channels": {
     "stable": {
       "minimum_supported": {
-        "version": "2.2.0",
-        "build": 2024,
+        "version": "2.2.1",
+        "build": 2025,
         "message": {
           "ar": "النسخة دي بقت قديمة ومبقتش مدعومة. حدّث التطبيق عشان تكمل.",
           "en": "This version is no longer supported. Update to continue."
         }
       },
       "latest": {
-        "version": "2.2.0",
-        "build": 2024,
+        "version": "2.2.1",
+        "build": 2025,
         "type": "regular",
         "mandatory": true,
         "mandatory_after": null,
         "withdrawn": false,
-        "released_at": "2026-10-14T11:25:01Z",
+        "released_at": "2026-10-19T14:27:13Z",
         "title": {
-          "ar": "رفيق AOU 2.2.0 — إشعارات أدق وبيانات أنضف",
-          "en": "AOU Hub 2.2.0 — sharper notifications, cleaner data"
+          "ar": "رفيق AOU 2.2.1 — قفل بالبصمة",
+          "en": "AOU Hub 2.2.1 — fingerprint lock"
         },
         "summary": {
-          "ar": "إشعارات فورية للمواعيد والتحديثات، أسماء المحاضرين متظبطة، الواجبات القديمة مبقتش بتظهر كأنها حالية، حاسبة معدل أذكى، وعارض ملفات المواد مع التحميل.",
-          "en": "Instant notifications for deadlines and updates, cleaner lecturer names, previous-term assignments no longer shown as current, a smarter GPA planner, and a course-file viewer with downloads."
+          "ar": "قفل التطبيق بالبصمة من الإعدادات، والدخول بالباسورد بيفتح التطبيق على طول من غير ما يطلب البصمة تاني.",
+          "en": "Lock the app with your fingerprint from Settings; signing in with your password opens the app without asking for the fingerprint again."
         },
         "highlights": [],
-        "release_notes_url": "https://github.com/ssssoliman937-design/aouapp/releases/tag/v2.2.0",
+        "release_notes_url": "https://github.com/ssssoliman937-design/aouapp/releases/tag/v2.2.1",
         "requirements": {
           "min_android_sdk": 24
         },
         "packages": [
           {
             "abi": "universal",
-            "file_name": "AOU-Hub-2.2.0-2024-universal.apk",
-            "url": "https://github.com/ssssoliman937-design/aouapp/releases/download/v2.2.0/AOU-Hub-2.2.0-2024-universal.apk",
-            "size_bytes": 68735935,
-            "sha256": "05b99f1a9446976b2f87907c836a38a56b78776a3b326be0eb4f46e38eef128d"
+            "file_name": "AOU-Hub-2.2.1-2025-universal.apk",
+            "url": "https://github.com/ssssoliman937-design/aouapp/releases/download/v2.2.1/AOU-Hub-2.2.1-2025-universal.apk",
+            "size_bytes": 69006176,
+            "sha256": "e72adaa254d4460f64fb9bc8a1650912d9a82f776828d7d6bc815bb18199b847"
           }
         ]
       }
