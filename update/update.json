@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "manifest": {
-    "sequence": 16,
-    "generated_at": "2026-10-19T14:27:13Z",
-    "expires_at": "2027-01-17T14:27:13Z"
+    "sequence": 17,
+    "generated_at": "2026-10-19T14:51:04Z",
+    "expires_at": "2027-01-17T14:51:04Z"
   },
   "application": {
     "id": "dev.soliman.aou_hub",
@@ -34,7 +34,7 @@
         "mandatory": true,
         "mandatory_after": null,
         "withdrawn": false,
-        "released_at": "2026-10-19T14:27:13Z",
+        "released_at": "2026-10-19T14:51:04Z",
         "title": {
           "ar": "رفيق AOU 2.2.1 — قفل بالبصمة",
           "en": "AOU Hub 2.2.1 — fingerprint lock"
@@ -53,8 +53,8 @@
             "abi": "universal",
             "file_name": "AOU-Hub-2.2.1-2025-universal.apk",
             "url": "https://github.com/ssssoliman937-design/aouapp/releases/download/v2.2.1/AOU-Hub-2.2.1-2025-universal.apk",
-            "size_bytes": 69006176,
-            "sha256": "e72adaa254d4460f64fb9bc8a1650912d9a82f776828d7d6bc815bb18199b847"
+            "size_bytes": 69006183,
+            "sha256": "90643caafb65f95059e7e0161cbefe44292203a2230266ec20555eb7e9146561"
           }
         ]
       }
