@@ -1,0 +1,45 @@
+# AOU Hub
+
+> An unofficial companion app for students of the Arab Open University, Egypt.
+> It signs in to the university's SIS and Moodle LMS with the student's own
+> credentials, reads what they hold, and reports changes that neither system
+> announces.
+
+Not affiliated with, endorsed by, or operated by the Arab Open University.
+
+## What it does
+
+- One sign-in for two systems that share nothing, not even a password.
+- Change detection across marks, exam schedule, timetable and fees. The app
+  compares each fetch against the last one and reports the difference.
+- A grade calculator that works in the university's own scheme: TMA out of 20,
+  mid-term out of 30, final out of 50, pass at 60.
+- Exam-day view with hall, seat and centre.
+- Offline-first: the last successful fetch is readable with no connection.
+- A study assistant answering questions about the student's own data.
+
+## What it does not do
+
+- It never sends SIS or LMS passwords to a server of its own or to Firebase.
+  Credentials saved with the opt-in "Remember Me" stay in Android's encrypted
+  storage on the device and are sent only to the university's own hosts.
+- It shows no ads and does no ad tracking. A Google account is optional; the
+  app works fully as a guest.
+- It cannot register courses, pay fees, or write anything back to the
+  university systems. Every request it makes is a read.
+
+## Pages
+
+- [English](https://ssssoliman937-design.github.io/aouapp/): product overview, screens, interactive demo, download.
+- [Arabic](https://ssssoliman937-design.github.io/aouapp/ar/): the same page in Egyptian Arabic.
+
+## Demo data
+
+The interactive demo on the site uses invented data for a fictional student.
+No real student record appears anywhere on this site.
+
+## Platform
+
+Android 7.0 or later. Distributed as a signed APK through GitHub Releases
+(github.com/ssssoliman937-design/aouapp), linked from the site's download
+section. There is no iOS version.
