@@ -1,12 +1,12 @@
 {
-  "version": "2.2.3",
-  "build": 2027,
-  "mandatory": false,
-  "minimum_build": 2026,
+  "version": "2.3.0",
+  "build": 2028,
+  "mandatory": true,
+  "minimum_build": 2028,
 
-  "title_ar": "رفيق AOU 2.2.3 — تحسين صغير",
-  "message_ar": "نافذة «ذكّرني» بقت بتتمرّر على الشاشات القصيرة ومبقتش بتتقصّ.",
+  "title_ar": "رفيق AOU 2.3.0 — المساعد وتذكير الأقساط",
+  "message_ar": "اسأل المساعد عن أي مادة من صفحتها، وهنفكّرك قبل ميعاد القسط. ملفات المواد الجديدة ممكن تتحمّل لوحدها على الواي فاي، وصفحة «الحساب والأمان» مبقتش بتظهر فاضية. وزرار جديد لتوثيق رقمك الجامعي.",
 
-  "title_en": "AOU Hub 2.2.3 — small fix",
-  "message_en": "The Remind-me sheet now scrolls on short screens instead of clipping."
+  "title_en": "AOU Hub 2.3.0 — Assistant and installment reminders",
+  "message_en": "Ask the assistant about any course from its page, and get reminded before an installment is due. New course files can download on their own over Wi-Fi, the Account & Security page no longer shows blank, and a new button verifies your student ID."
 }

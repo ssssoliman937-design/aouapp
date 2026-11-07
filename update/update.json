@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "manifest": {
-    "sequence": 19,
-    "generated_at": "2026-10-19T21:02:42Z",
-    "expires_at": "2027-01-17T21:02:42Z"
+    "sequence": 20,
+    "generated_at": "2026-11-07T05:10:01Z",
+    "expires_at": "2027-02-05T05:10:01Z"
   },
   "application": {
     "id": "dev.soliman.aou_hub",
@@ -20,41 +20,41 @@
   "channels": {
     "stable": {
       "minimum_supported": {
-        "version": "2.2.2",
-        "build": 2026,
+        "version": "2.3.0",
+        "build": 2028,
         "message": {
           "ar": "النسخة دي بقت قديمة ومبقتش مدعومة. حدّث التطبيق عشان تكمل.",
           "en": "This version is no longer supported. Update to continue."
         }
       },
       "latest": {
-        "version": "2.2.3",
-        "build": 2027,
+        "version": "2.3.0",
+        "build": 2028,
         "type": "regular",
-        "mandatory": false,
+        "mandatory": true,
         "mandatory_after": null,
         "withdrawn": false,
-        "released_at": "2026-10-19T21:02:42Z",
+        "released_at": "2026-11-07T05:10:01Z",
         "title": {
-          "ar": "رفيق AOU 2.2.3 — تحسين صغير",
-          "en": "AOU Hub 2.2.3 — small fix"
+          "ar": "رفيق AOU 2.3.0 — المساعد وتذكير الأقساط",
+          "en": "AOU Hub 2.3.0 — Assistant and installment reminders"
         },
         "summary": {
-          "ar": "نافذة «ذكّرني» بقت بتتمرّر على الشاشات القصيرة ومبقتش بتتقصّ.",
-          "en": "The Remind-me sheet now scrolls on short screens instead of clipping."
+          "ar": "اسأل المساعد عن أي مادة من صفحتها، وهنفكّرك قبل ميعاد القسط. ملفات المواد الجديدة ممكن تتحمّل لوحدها على الواي فاي، وصفحة «الحساب والأمان» مبقتش بتظهر فاضية. وزرار جديد لتوثيق رقمك الجامعي.",
+          "en": "Ask the assistant about any course from its page, and get reminded before an installment is due. New course files can download on their own over Wi-Fi, the Account & Security page no longer shows blank, and a new button verifies your student ID."
         },
         "highlights": [],
-        "release_notes_url": "https://github.com/ssssoliman937-design/aouapp/releases/tag/v2.2.3",
+        "release_notes_url": "https://github.com/ssssoliman937-design/aouapp/releases/tag/v2.3.0",
         "requirements": {
           "min_android_sdk": 24
         },
         "packages": [
           {
             "abi": "universal",
-            "file_name": "AOU-Hub-2.2.3-2027-universal.apk",
-            "url": "https://github.com/ssssoliman937-design/aouapp/releases/download/v2.2.3/AOU-Hub-2.2.3-2027-universal.apk",
-            "size_bytes": 69088172,
-            "sha256": "c869b7aedb141b4966ae4a8dfe82e20421dc359f99e101f9a85e3be15a739566"
+            "file_name": "AOU-Hub-2.3.0-2028-universal.apk",
+            "url": "https://github.com/ssssoliman937-design/aouapp/releases/download/v2.3.0/AOU-Hub-2.3.0-2028-universal.apk",
+            "size_bytes": 66366297,
+            "sha256": "0c7aac5bb244093d653413c64ca5aab10f22bd0ead5592f3a0622cc7ea59977a"
           }
         ]
       }
