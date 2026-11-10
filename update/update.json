@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "manifest": {
-    "sequence": 20,
-    "generated_at": "2026-11-07T05:10:01Z",
-    "expires_at": "2027-02-05T05:10:01Z"
+    "sequence": 21,
+    "generated_at": "2026-11-10T20:27:02Z",
+    "expires_at": "2027-02-08T20:27:02Z"
   },
   "application": {
     "id": "dev.soliman.aou_hub",
@@ -20,41 +20,41 @@
   "channels": {
     "stable": {
       "minimum_supported": {
-        "version": "2.3.0",
-        "build": 2028,
+        "version": "2.4.0",
+        "build": 2029,
         "message": {
           "ar": "النسخة دي بقت قديمة ومبقتش مدعومة. حدّث التطبيق عشان تكمل.",
           "en": "This version is no longer supported. Update to continue."
         }
       },
       "latest": {
-        "version": "2.3.0",
-        "build": 2028,
+        "version": "2.4.0",
+        "build": 2029,
         "type": "regular",
         "mandatory": true,
         "mandatory_after": null,
         "withdrawn": false,
-        "released_at": "2026-11-07T05:10:01Z",
+        "released_at": "2026-11-10T20:27:02Z",
         "title": {
-          "ar": "رفيق AOU 2.3.0 — المساعد وتذكير الأقساط",
-          "en": "AOU Hub 2.3.0 — Assistant and installment reminders"
+          "ar": "رفيق AOU 2.4.0 — الأصحاب",
+          "en": "AOU Hub 2.4.0 — Friends"
         },
         "summary": {
-          "ar": "اسأل المساعد عن أي مادة من صفحتها، وهنفكّرك قبل ميعاد القسط. ملفات المواد الجديدة ممكن تتحمّل لوحدها على الواي فاي، وصفحة «الحساب والأمان» مبقتش بتظهر فاضية. وزرار جديد لتوثيق رقمك الجامعي.",
-          "en": "Ask the assistant about any course from its page, and get reminded before an installment is due. New course files can download on their own over Wi-Fi, the Account & Security page no longer shows blank, and a new button verifies your student ID."
+          "ar": "ضيف أصحابك برقمهم الجامعي الموثّق، قارن جدولك بجدولهم واعرف البريك المشترك، واتكلم معاهم في شات. بيظهر بعد تسجيل دخول SIS وحساب AOU Hub.",
+          "en": "Add friends by their verified student ID, compare schedules to find shared breaks, and chat with them. Shows up after you sign in to SIS and an AOU Hub account."
         },
         "highlights": [],
-        "release_notes_url": "https://github.com/ssssoliman937-design/aouapp/releases/tag/v2.3.0",
+        "release_notes_url": "https://github.com/ssssoliman937-design/aouapp/releases/tag/v2.4.0",
         "requirements": {
           "min_android_sdk": 24
         },
         "packages": [
           {
             "abi": "universal",
-            "file_name": "AOU-Hub-2.3.0-2028-universal.apk",
-            "url": "https://github.com/ssssoliman937-design/aouapp/releases/download/v2.3.0/AOU-Hub-2.3.0-2028-universal.apk",
-            "size_bytes": 66366297,
-            "sha256": "0c7aac5bb244093d653413c64ca5aab10f22bd0ead5592f3a0622cc7ea59977a"
+            "file_name": "AOU-Hub-2.4.0-2029-universal.apk",
+            "url": "https://github.com/ssssoliman937-design/aouapp/releases/download/v2.4.0/AOU-Hub-2.4.0-2029-universal.apk",
+            "size_bytes": 66694553,
+            "sha256": "f55ff164195d4b9005bdd2889f23c17c037c69578df5a638f0407e3b6470c267"
           }
         ]
       }
